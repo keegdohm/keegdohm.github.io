@@ -1,0 +1,33 @@
+body {
+  background-color: #9999FF;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  color: white;
+}
+
+/* "#" Works with ids. Ids take precedence
+over classes */
+
+#myP {
+  font-weight: bold;
+  color: black;
+}
+
+/* "." Works with classes. */
+.redPs {
+  color: red;
+  font-weight: italic;
+}
+
+ul li {
+  color: #BBFFBB;
+}
